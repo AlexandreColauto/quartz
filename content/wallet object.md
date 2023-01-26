@@ -1,3 +1,8 @@
+---
+title: "wallet object"
+enableToc: false
+---
+
 Conpay uses ethers js as tool for handeling wallet actions, such as create new wallet, initiate transaction, fetch balance.
 
 Whenever a new conpay account is created  a random wallet is created at the same time and the mnemonic phrase is stored in database. 

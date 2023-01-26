@@ -1,3 +1,7 @@
+---
+title: "orders table"
+enableToc: false
+---
 table that will hold all request for signing transactions, please don't confuse with [[transactions table]], that hold the token transfer history.
 
 #refactor 
