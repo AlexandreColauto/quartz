@@ -1,5 +1,12 @@
-#giturl https://github.com/AlexandreColauto/conpay-backend/blob/main/pages/api/fetchTokenBalance.js
+---
+title: "Fetch Token Balance"
+enableToc: false
+tags: 
+- getter
+- refactor
+---
 
+[github](https://github.com/AlexandreColauto/conpay-backend/blob/main/pages/api/fetchTokenBalance.js)
 
 This endpoint will take the JWT token send in the body and retrieve the user's [[wallet object]] , then simply call `wallet.getBalance()`, parse and return the value.
 

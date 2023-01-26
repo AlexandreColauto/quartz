@@ -1,4 +1,16 @@
-#giturl https://github.com/AlexandreColauto/conpay-backend/blob/main/pages/api/fetchHistory.js
+---
+title: "Fetch History"
+enableToc: false
+tags: 
+- getter
+- refactor
+---
+
+[github](https://github.com/AlexandreColauto/conpay-backend/blob/main/pages/api/fetchHistory.js)
+
+
+
+
 
 
 This endpoint will fetch all users transaction on the [[transactions table]]. The table desn't specify if the transaction is from a type *send* or *receive*, it only retrieve all transactions that the user was involved, being responsability of the front end to diferentiate a *send* transaction when the user's id is on the **from** column, and define a *receive* transaction when the user's id is on the **to** column.

@@ -1,4 +1,15 @@
-#giturl https://github.com/AlexandreColauto/conpay-backend/blob/main/pages/api/fetchUserNfts.js
+---
+title: "Fetch User Nfts"
+enableToc: false
+tags: 
+- getter
+- refactor
+---
+
+[github](https://github.com/AlexandreColauto/conpay-backend/blob/main/pages/api/fetchUserNfts.js)
+
+
+
 
 This endpoit make use of another API, Moralis.
 <details><summary>Why Moralis?</summary>
@@ -8,7 +19,7 @@ This and the [[onramp]], will be the only external services that conpay will be 
 
 When invoked, this endpoint will retrieve the user's wallet address from database, then call Morali's API that will return all NFT's addresses and id's of a specific address. With that we invoke the ERC1155 function *uri*, that will return the nft metadata.
 
-we need to do this iteractive process because moralis returns only address and id's, we still have to fetch the metadata uri for every single nft, which can slowdown the process of retrieving. #refactor 
+we need to do this iteractive process because moralis returns only address and id's, we still have to fetch the metadata uri for every single nft, which can slowdown the process of retrieving.  
 
 This issue happens most for external nfts, for conpay for business we will have total control over urls and metadata.
 

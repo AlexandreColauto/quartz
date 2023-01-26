@@ -1,6 +1,15 @@
-#giturl https://github.com/AlexandreColauto/conpay-backend/blob/main/pages/api/fetchFriend.js
+---
+title: "Fetch Friends"
+enableToc: false
+tags: 
+- getter
+- refactor
+---
 
-#refactor
+[github](https://github.com/AlexandreColauto/conpay-backend/blob/main/pages/api/fetchFriend.js )
+
+
+
 <details>
 <summary>refactor details</summary>
 Update function to perform a single query to supabase instead of nested queries.
