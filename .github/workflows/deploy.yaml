@@ -33,7 +33,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: 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
           publish_dir: ./public
           publish_branch: master  # deploying branch
           cname: AlexandreColauto.github.io
