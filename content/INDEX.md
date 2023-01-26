@@ -1,7 +1,3 @@
----
-title: Conpay Docs
-enableToc: false
----
 
 Conpay backend
 
